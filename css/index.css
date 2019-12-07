@@ -1,0 +1,24 @@
+.hero.section-bg {
+	background-image: url(../img/purple-mt.jpeg);
+}
+
+.redIco {
+	color: #dd0a37;
+}
+
+.mt-3 {
+	margin-top: 20px;
+}
+
+.main-btn {
+	font-size: 20px;
+	font-weight: 600;
+	background: none;
+	text-transform: capitalize;
+	border: solid white;
+}
+
+.main-btn:hover {
+	color : black;
+	background: white;
+}
