@@ -22,3 +22,66 @@
 	color : black;
 	background: white;
 }
+
+#gradLogo::before {
+	display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+	-webkit-font-smoothing: antialiased;
+	font-family: "Font Awesome 5 Free"; 
+	font-weight: 900;
+	font-size: 3.8rem;
+	content: "FR\f2dcSTHACK";
+	background: -webkit-linear-gradient(left, #35aeff, #ff2ed2);
+	-webkit-background-clip: text;
+	background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.navNotTop .navbar-brand .logo .logo-img {
+  display: none;
+}
+
+.navTop .navbar-brand .logo .logo-alt-img {
+  display: none;
+}
+
+/* .navTop {
+
+}
+
+.navNotTop {
+
+} */
+
+.navTop {
+	padding-top : 2%;
+}
+
+.navNotTop {
+  position: fixed !important;
+  left: 0;
+  right: 0;
+  top: 0;
+  background: #FFF !important;
+  -webkit-box-shadow: 0px 0px 3px #0003;
+  box-shadow: 0px 0px 3px #0003;
+  border-bottom: none;
+  /* -webkit-animation: slide-in 0.3s; */
+  /* animation: slide-in 0.3s; */
+  padding-top: 1%;
+  transition: all 0.6s;
+}
+
+#header.navNotTop .main-nav li a {
+  color: #0b0f28;
+}
+
+#header.navNotTop .navbar-toggle {
+  color: #0b0f28 !important;
+}
+
+#home > div.home-wrapper h4  i {
+	padding-left: 20px;
+}
