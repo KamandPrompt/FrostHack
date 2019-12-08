@@ -15,11 +15,19 @@
 	// Fixed nav
 	$(window).on('scroll', function() {
 		var wScroll = $(this).scrollTop();
-		wScroll > 50 ? $('#header').addClass('fixed-navbar') : $('#header').removeClass('fixed-navbar');
+		if(wScroll !== 0) {
+			// $('#header').addClass('fixed-navbar');
+			$('#header').addClass('navNotTop');
+			$('#header').removeClass('navTop')
+		}else {
+			$('#header').addClass('navTop')
+			$('#header').removeClass('navNotTop');
+			// $('#header').removeClass('fixed-navbar');
+		}
 	});
 
 	// Smooth scroll
-	$(".main-nav a[href^='#']").on('click', function(e) {
+	$("a[href^='#']").on('click', function(e) {
 		e.preventDefault();
 		var hash = this.hash;
 		$('html, body').animate({
