@@ -85,3 +85,25 @@
 #home > div.home-wrapper h4  i {
 	padding-left: 20px;
 }
+
+#home div.home-wrapper .home-content img {
+	width: 70%;
+}
+
+.navTop ul.main-nav {
+	font-size: 1.5rem;
+	letter-spacing: 0.2rem;
+	font-weight: 600;
+	text-shadow: 1px 1px 10px black;
+}
+
+.navNotTop {
+	font-size: 1.5rem;
+	letter-spacing: 0.2rem;
+	font-weight: 600;
+}
+
+.home-content .lead {
+	text-shadow: 1px 1px 10px black;
+}
+

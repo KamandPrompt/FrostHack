@@ -1,14 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
-	<title>Event HTML Template</title>
+	<title>Frosthack</title>
 
+
+	<!-- favicon -->
+	<link rel="icon" href="./img/logos/favi.png" type="image/x-icon"/>
+	<link rel="shortcut icon" href="./img/logos/favi.png" type="image/x-icon"/>
+	
 	<!-- Google font -->
 	<link href="https://fonts.googleapis.com/css?family=Poppins:400,700,900" rel="stylesheet">
 
@@ -20,17 +24,33 @@
 	<link type="text/css" rel="stylesheet" href="css/owl.theme.default.css" />
 
 	<!-- Font Awesome Icon -->
-	<link rel="stylesheet" href="./fontAwesome/css/all.min.css">
+	<link rel="stylesheet" href="fontAwesome/css/all.min.css">
+	<!-- <link rel="stylesheet" href="css/font-awesome.min.css"> -->
 
 	<!-- Custom stlylesheet -->
 	<link type="text/css" rel="stylesheet" href="css/style.css" />
-	<link rel="stylesheet" href="css/team.css">
-
+	<link rel="stylesheet" href="css/index.css">
+	<style>
+		.centered {
+			text-align: center;
+			margin : 5rem auto;
+		}
+		.centered h2 {
+			font-size: 2rem;
+		}
+		.centered img {
+			margin-bottom: 20px;
+		}
+		.centered .fab{
+			margin-right: 20px;
+		}
+		
+	</style>
 </head>
-
 <body>
+
 	<!-- Header -->
-	<header id="header">
+	<header id="header" class="transparent-navbar">
 		<!-- container -->
 		<div class="container">
 			<!-- navbar header -->
@@ -38,23 +58,21 @@
 				<!-- Logo -->
 				<div class="navbar-brand">
 					<a class="logo" href="index.html">
-						<i class="fas fa-backward fa-3x"></i>
-						<!-- <img class="logo-img" src="./img/logo.png" alt="logo"> -->
-						<!-- <img class="logo-alt-img" src="./img/logo-alt.png" alt="logo"> -->
+						<img class="logo-img" src="./img/logos/wide-small.png" alt="logo">
+						<img class="logo-alt-img" src="./img/logos/wide-small.png" alt="logo">
 					</a>
 				</div>
 				<!-- /Logo -->
 			</div>
 			<!-- /navbar header -->
 
-
 		</div>
 		<!-- /container -->
 	</header>
 	<!-- /Header -->
 
-	<!-- Contact -->
-	<div id="teamRow" class="section">
+	<!-- team -->
+	<div id="team" class="section" style="margin-top: 10vh;">
 		<!-- container -->
 		<div class="container">
 			<!-- row -->
@@ -65,366 +83,350 @@
 				</div>
 				<!-- /section title -->
 
-				<!-- team -->
-				<div class="team-memberz container">
-					<div class="row">
-			
-					  <div class="col-md-4">
-						<div class="team-member">
-						  <figure>
-							<img src="img/dheeraj.jpg" alt="" class="img-responsive">
-							<figcaption>
-							  <ul>
-								  <br>
-								  <br>
-								  <br>
-								  <br>
-								<li><a href="https://www.facebook.com/dheeraj.168"><i class="fab fa-facebook fa-2x"></i></a></li>
-								<li><a href="https://github.com/dheeraj135"><i class="fab fa-github fa-2x"></i></a></li>
-								
-							  </ul>
-							</figcaption>
-						  </figure>
-						  <h4>Dheeraj Yadav</h4>
-						  <p>Overall</p>
-						</div><!-- /.team-member-->
-					  </div><!-- /.col-md-4 -->
-					  
-					  <div class="col-md-4">
-						  <div class="team-member">
-							  <figure>
-								  <img src="img/vipul.jpg" alt="" class="img-responsive">
-								  <figcaption>
-									  <ul>
-										  <br>
-										  <br>
-										  <br>
-										  <br>
-								<li><a href="https://www.facebook.com/vsvipul555"><i class="fab fa-facebook fa-2x"></i></a></li>
-								<li><a href="https://github.com/vsvipul"><i class="fab fa-github fa-2x"></i></a></li>
-								
-							</ul>
-							</figcaption>
-						</figure>
-						<h4>Vipul Sharma</h4>
+				<!-- team-member -->
+				<div class="col-lg-3 col-md-6 centered">
+						<img class="img img-circle" src="img/dheeraj.jpg" height="200px" width="200px" alt="Hitesh Ramchandani">
+						<br>
+						<h2><b>Dheeraj Yadav</b></h2>
 						<p>Overall</p>
-					</div><!-- /.team-member-->
-						</div><!-- /.col-md-4 -->
-				
-						<div class="col-md-4">
-						<div class="team-member">
-							<figure>
-							<img src="img/varun.jpg" alt="" class="img-responsive">
-							<figcaption>
-								<ul>
-									<br>
-									<br>
-									<br>
-									<br>
-								<li><a href="https://www.facebook.com/varunsingh110"><i class="fab fa-facebook fa-2x"></i></a></li>
-								<li><a href="https://github.com/Varunvaruns9"><i class="fab fa-github fa-2x"></i></a></li>
-								
-								</ul>
-							</figcaption>
-							</figure>
-							<h4>Varun Singh</h4>
-							<p>Finance</p>
-						</div><!-- /.team-member-->
-						</div><!-- /.col-md-4 -->
-
-						<div class="col-md-4">
-						<div class="team-member">
-						  <figure>
-							<img src="img/ruchika.jpg" alt="" class="img-responsive">
-							<figcaption>
-							  <ul>
-								  <br>
-								  <br>
-								  <br>
-								  <br>
-								<li><a href="https://www.facebook.com/ruchika.sharan.75"><i class="fab fa-facebook fa-2x"></i></a></li>
-								<li><a href="https://github.com/Ruchika06"><i class="fab fa-github fa-2x"></i></a></li>
-								
-							  </ul>
-							</figcaption>
-						  </figure>
-						  <h4>Ruchika Sharan</h4>
-						  <p>Management</p>
-						</div><!-- /.team-member-->
-					  </div><!-- /.col-md-4 -->
-
-					  <div class="col-md-4">
-						<div class="team-member">
-						  <figure>
-							<img src="img/aaditya.jpg" alt="" class="img-responsive">
-							<figcaption>
-							  <ul>
-								  <br>
-								  <br>
-								  <br>
-								  <br>
-								<li><a href="https://www.facebook.com/profile.php?id=100005795290424"><i class="fab fa-facebook fa-2x"></i></a></li>
-								<li><a href="https://github.com/Adi2612"><i class="fab fa-github fa-2x"></i></a></li>
-								
-							  </ul>
-							</figcaption>
-						  </figure>
-						  <h4>Aaditya Arora</h4>
-						  <p>Finance</p>
-						</div><!-- /.team-member-->
-					  </div><!-- /.col-md-4 -->
-
-					  <div class="col-md-4">
-						<div class="team-member">
-						  <figure>
-							<img src="img/tushar.jpg" alt="" class="img-responsive">
-							<figcaption>
-							  <ul>
-								  <br>
-								  <br>
-								  <br>
-								  <br>
-								<li><a href="https://www.facebook.com/tushar.tyagi.10888"><i class="fab fa-facebook fa-2x"></i></a></li>
-								<li><a href=""><i class="fab fa-github fa-2x"></i></a></li>
-								
-							  </ul>
-							</figcaption>
-						  </figure>
-						  <h4>Tushar Tyagi</h4>
-						  <p>Branding</p>
-						</div><!-- /.team-member-->
-					  </div><!-- /.col-md-4 -->
-
-					  <div class="col-md-4">
-						<div class="team-member">
-						  <figure>
-							<img src="img/hemraj.jpg" alt="" class="img-responsive">
-							<figcaption>
-							  <ul>
-								  <br>
-								  <br>
-								  <br>
-								  <br>
-								<li><a href="https://www.facebook.com/hemraj.parmar.779"><i class="fab fa-facebook fa-2x"></i></a></li>
-								<li><a href="#"><i class="fab fa-github fa-2x"></i></a></li>
-								
-							  </ul>
-							</figcaption>
-						  </figure>
-						  <h4>Hemraj Parmar</h4>
-						  <p>Branding</p>
-						</div><!-- /.team-member-->
-					  </div><!-- /.col-md-4 -->
-
-					  <div class="col-md-4">
-						<div class="team-member">
-						  <figure>
-							<img src="img/dipanshu.jpg" alt="" class="img-responsive">
-							<figcaption>
-							  <ul>
-								  <br>
-								  <br>
-								  <br>
-								  <br>
-								<li><a href="https://www.facebook.com/dipanshu231099"><i class="fab fa-facebook fa-2x"></i></a></li>
-								<li><a href="https://github.com/dipanshu231099"><i class="fab fa-github fa-2x"></i></a></li>
-								
-							  </ul>
-							</figcaption>
-						  </figure>
-						  <h4>Dipanshu Verma</h4>
-						  <p>Hospitality</p>
-						</div><!-- /.team-member-->
-					  </div><!-- /.col-md-4 -->
-
-					  <div class="col-md-4">
-						<div class="team-member">
-						  <figure>
-							<img src="img/prajjwal.jpg" alt="" class="img-responsive">
-							<figcaption>
-							  <ul>
-								  <br>
-								  <br>
-								  <br>
-								  <br>
-								<li><a href="https://www.facebook.com/prajjwal.jha"><i class="fab fa-facebook fa-2x"></i></a></li>
-								<li><a href="https://github.com/JhaPrajjwal"><i class="fab fa-github fa-2x"></i></a></li>
-								
-							  </ul>
-							</figcaption>
-						  </figure>
-						  <h4>Prajjwal Jha</h4>
-						  <p>Hospitality</p>
-						</div><!-- /.team-member-->
-					  </div><!-- /.col-md-4 -->
-
-					  <div class="col-md-4">
-						<div class="team-member">
-						  <figure>
-							<img src="img/saksham.jpg" alt="" class="img-responsive">
-							<figcaption>
-							  <ul>
-								  <br>
-								  <br>
-								  <br>
-								  <br>
-								<li><a href="https://www.facebook.com/profile.php?id=100011143120838"><i class="fab fa-facebook fa-2x"></i></a></li>
-								<li><a href=""><i class="fab fa-github fa-2x fa-2x"></i></a></li>
-								
-							  </ul>
-							</figcaption>
-						  </figure>
-						  <h4>Saksham Barara</h4>
-						  <p>Hospitality</p>
-						</div><!-- /.team-member-->
-					  </div><!-- /.col-md-4 -->
-
-		
-					  <div class="col-md-4">
-							<div class="team-member">
-							  <figure>
-								<img src="img/divya.jpg" alt="" class="img-responsive">
-								<figcaption>
-								  <ul>
-									  <br>
-									  <br>
-									  <br>
-									  <br>
-									<li><a href="https://www.facebook.com/profile.php?id=100021752913326"><i class="fab fa-facebook fa-2x"></i></a></li>
-									<li><a href="#"><i class="fab fa-github fa-2x"></i></a></li>
-									
-								  </ul>
-								</figcaption>
-							  </figure>
-							  <h4>Divya Gupta</h4>
-							  <p>Management</p>
-							</div><!-- /.team-member-->
-						  </div><!-- /.col-md-4 -->
-	
-	
-					  <div class="col-md-4">
-						<div class="team-member">
-						  <figure>
-							<img src="img/swapnil.jpg" alt="" class="img-responsive">
-							<figcaption>
-							  <ul>
-								  <br>
-								  <br>
-								  <br>
-								  <br>
-								<li><a href="https://www.facebook.com/swapnilrustagi"><i class="fab fa-facebook fa-2x"></i></a></li>
-								<li><a href="https://github.com/Swapnilr1"><i class="fab fa-github fa-2x"></i></a></li>
-								
-							  </ul>
-							</figcaption>
-						  </figure>
-						  <h4>Swapnil Rustagi</h4>
-						  <p>Technical</p>
-						</div><!-- /.team-member-->
-					  </div><!-- /.col-md-4 -->
-
-					  <div class="col-md-4">
-							<div class="team-member">
-							  <figure>
-								<img src="img/saransh.jpg" alt="" class="img-responsive">
-								<figcaption>
-								  <ul>
-									  <br>
-									  <br>
-									  <br>
-									  <br>
-									<li><a href="https://www.facebook.com/saransh.jain.921677"><i class="fab fa-facebook fa-2x"></i></a></li>
-									<li><a href="#"><i class="fab fa-github fa-2x"></i></a></li>
-									
-								  </ul>
-								</figcaption>
-							  </figure>
-							  <h4>Saransh Jain</h4>
-							  <p>Finance</p>
-							</div><!-- /.team-member-->
-						  </div><!-- /.col-md-4 -->
-					  
-
-						  <div class="col-md-4">
-								<div class="team-member">
-								  <figure>
-									<img src="img/milind.jpg" alt="" class="img-responsive">
-									<figcaption>
-									  <ul>
-										  <br>
-										  <br>
-										  <br>
-										  <br>
-										<li><a href="https://www.facebook.com/milind.topno.50"><i class="fab fa-facebook fa-2x"></i></a></li>
-										<li><a href="https://github.com/Milind712000"><i class="fab fa-github fa-2x fa-2x"></i></a></li>
-										
-									  </ul>
-									</figcaption>
-								  </figure>
-								  <h4>Milind Topno</h4>
-								  <p>Technical</p>
-								</div><!-- /.team-member-->
-						  </div><!-- /.col-md-4 -->
-	
-
-					  <div class="col-md-4">
-							<div class="team-member">
-								<figure>
-								<img src="img/ankit.jpg" alt="" class="img-responsive">
-								<figcaption>
-									<ul>
-										<br>
-										<br>
-										<br>
-										<br>
-									<li><a href="https://www.facebook.com/ankit.karan.58"><i class="fab fa-facebook fa-2x"></i></a></li>
-									<li><a href="https://github.com/karanankit01"><i class="fab fa-github fa-2x"></i></a></li>
-									
-									</ul>
-								</figcaption>
-								</figure>
-								<h4>Ankit Karan</h4>
-								<p>Management</p>
-							</div><!-- /.team-member-->
-						</div><!-- /.col-md-4 -->
-	
-
-					  <div class="col-md-4">
-						<div class="team-member">
-						  <figure>
-							<img src="img/tanmay.jpg" alt="" class="img-responsive">
-							<figcaption>
-							  <ul>
-								  <br>
-								  <br>
-								  <br>
-								  <br>
-								<li><a href="https://www.facebook.com/rtanmay05"><i class="fab fa-facebook fa-2x"></i></a></li>
-								<li><a href="https://github.com/rtanmay"><i class="fab fa-github fa-2x"></i></a></li>
-								
-							  </ul>
-							</figcaption>
-						  </figure>
-						  <h4>Tanmay Rustagi</h4>
-						  <p>Management</p>
-						</div><!-- /.team-member-->
-					  </div><!-- /.col-md-4 -->
-					  
+						<a href="https://www.facebook.com/dheeraj.168" target=_blank >
+							<i class="fab fa-facebook fa-lg"></i>
+						</a>
+						<a href="tel:+918527510168" target=_blank >
+							<i class="fas fa-phone fa-lg"></i>
+						</a>
+				</div>
+				<!-- /team-member -->
 
 
-					</div><!-- /.row -->
-				  </div>
-				<!-- team end -->
-				
+				<!-- team-member -->
+				<div class="col-lg-3 col-md-6 centered">
+						<img class="img img-circle" src="img/vipul.jpg" height="200px" width="200px" alt="Hitesh Ramchandani">
+						<br>
+						<h2><b>Vipul Sharma</b></h2>
+						<p>Overall</p>
+						<a href="https://www.facebook.com/vsvipul555" target=_blank >
+							<i class="fab fa-facebook fa-lg"></i>
+						</a>
+						<a href="tel:+919418322955" target=_blank >
+							<i class="fas fa-phone fa-lg"></i>
+						</a>
+				</div>
+				<!-- /team-member -->
+
+
+				<!-- team-member -->
+				<div class="col-lg-3 col-md-6 centered">
+						<img class="img img-circle" src="img/varun.jpg" height="200px" width="200px" alt="Hitesh Ramchandani">
+						<br>
+						<h2><b>Varun Singh</b></h2>
+						<p>Finance</p>
+						<a href="https://www.facebook.com/varunsingh110" target=_blank >
+							<i class="fab fa-facebook fa-lg"></i>
+						</a>
+						<a href="tel:+918628907720" target=_blank >
+							<i class="fas fa-phone fa-lg"></i>
+						</a>
+				</div>
+				<!-- /team-member -->
+
+
+				<!-- team-member -->
+				<div class="col-lg-3 col-md-6 centered">
+						<img class="img img-circle" src="img/swapnil.jpg" height="200px" width="200px" alt="Hitesh Ramchandani">
+						<br>
+						<h2><b>Swapnil Rustagi</b></h2>
+						<p>Technical</p>
+						<a href="https://www.facebook.com/Swapnilr1" target=_blank >
+							<i class="fab fa-facebook fa-lg"></i>
+						</a>
+						<a href="tel:+919999862893" target=_blank >
+							<i class="fas fa-phone fa-lg"></i>
+						</a>
+				</div>
+				<!-- /team-member -->
+
+
+				<!-- team-member -->
+				<div class="col-lg-3 col-md-6 centered">
+						<img class="img img-circle" src="img/aaditya.jpg" height="200px" width="200px" alt="Hitesh Ramchandani">
+						<br>
+						<h2><b>Aaditya Arora</b></h2>
+						<p>Finance</p>
+						<a href="https://www.facebook.com/profile.php?id=100005795290424" target=_blank >
+							<i class="fab fa-facebook fa-lg"></i>
+						</a>
+						<a href="tel:+919340291604" target=_blank >
+							<i class="fas fa-phone fa-lg"></i>
+						</a>
+				</div>
+				<!-- /team-member -->
+
+
+				<!-- team-member -->
+				<div class="col-lg-3 col-md-6 centered">
+						<img class="img img-circle" src="img/tushar.jpg" height="200px" width="200px" alt="Hitesh Ramchandani">
+						<br>
+						<h2><b>Tushar Tyagi</b></h2>
+						<p>Branding</p>
+						<a href="https://www.facebook.com/tushar.tyagi.10888" target=_blank >
+							<i class="fab fa-facebook fa-lg"></i>
+						</a>
+						<a href="tel:+917982610430" target=_blank >
+							<i class="fas fa-phone fa-lg"></i>
+						</a>
+				</div>
+				<!-- /team-member -->
+
+
+				<!-- team-member -->
+				<div class="col-lg-3 col-md-6 centered">
+						<img class="img img-circle" src="img/hemraj.jpg" height="200px" width="200px" alt="Hitesh Ramchandani">
+						<br>
+						<h2><b>Hemraj Parmar</b></h2>
+						<p>Branding</p>
+						<a href="https://www.facebook.com/hemraj.parmar.779" target=_blank >
+							<i class="fab fa-facebook fa-lg"></i>
+						</a>
+						<a href="tel:+919426870760" target=_blank >
+							<i class="fas fa-phone fa-lg"></i>
+						</a>
+				</div>
+				<!-- /team-member -->
+
+
+				<!-- team-member -->
+				<div class="col-lg-3 col-md-6 centered">
+						<img class="img img-circle" src="img/dipanshu.jpg" height="200px" width="200px" alt="Hitesh Ramchandani">
+						<br>
+						<h2><b>Dipanshu Verma</b></h2>
+						<p>Hospitality</p>
+						<a href="https://www.facebook.com/dipanshu231099" target=_blank >
+							<i class="fab fa-facebook fa-lg"></i>
+						</a>
+						<a href="tel:+919041118938" target=_blank >
+							<i class="fas fa-phone fa-lg"></i>
+						</a>
+				</div>
+				<!-- /team-member -->
+
+
+				<!-- team-member -->
+				<div class="col-lg-3 col-md-6 centered">
+						<img class="img img-circle" src="img/prajjwal.jpg" height="200px" width="200px" alt="Hitesh Ramchandani">
+						<br>
+						<h2><b>Prajjwal Jha</b></h2>
+						<p>Hospitality</p>
+						<a href="https://www.facebook.com/prajjwal.jha" target=_blank >
+							<i class="fab fa-facebook fa-lg"></i>
+						</a>
+						<a href="tel:+918962884701" target=_blank >
+							<i class="fas fa-phone fa-lg"></i>
+						</a>
+				</div>
+				<!-- /team-member -->
+
+
+				<!-- team-member -->
+				<div class="col-lg-3 col-md-6 centered">
+						<img class="img img-circle" src="img/rihsi.jpg" height="200px" width="200px" alt="Hitesh Ramchandani">
+						<br>
+						<h2><b>Rishi Sharma</b></h2>
+						<p>Hospitality</p>
+						<a href="https://www.facebook.com/prajjwal.jha" target=_blank >
+							<i class="fab fa-facebook fa-lg"></i>
+						</a>
+						<a href="tel:+918962884701" target=_blank >
+							<i class="fas fa-phone fa-lg"></i>
+						</a>
+				</div>
+				<!-- /team-member -->
+
+
+				<!-- team-member -->
+				<div class="col-lg-3 col-md-6 centered">
+						<img class="img img-circle" src="img/manvi.jpg" height="200px" width="200px" alt="Hitesh Ramchandani">
+						<br>
+						<h2><b>Manvi Gupta</b></h2>
+						<p>Management</p>
+						<a href="https://www.facebook.com/prajjwal.jha" target=_blank >
+							<i class="fab fa-facebook fa-lg"></i>
+						</a>
+						<a href="tel:+918962884701" target=_blank >
+							<i class="fas fa-phone fa-lg"></i>
+						</a>
+				</div>
+				<!-- /team-member -->
+
+
+				<!-- team-member -->
+				<div class="col-lg-3 col-md-6 centered">
+						<img class="img img-circle" src="img/saksham.jpg" height="200px" width="200px" alt="Hitesh Ramchandani">
+						<br>
+						<h2><b>Shaksham Barara</b></h2>
+						<p>Hospitality</p>
+						<a href="https://www.facebook.com/profile.php?id=100011143120838" target=_blank >
+							<i class="fab fa-facebook fa-lg"></i>
+						</a>
+						<a href="tel:+9877757063" target=_blank >
+							<i class="fas fa-phone fa-lg"></i>
+						</a>
+				</div>
+				<!-- /team-member -->
+
+
+				<!-- team-member -->
+				<div class="col-lg-3 col-md-6 centered">
+						<img class="img img-circle" src="img/divya.jpg" height="200px" width="200px" alt="Hitesh Ramchandani">
+						<br>
+						<h2><b>Divya Gupta</b></h2>
+						<p>Management</p>
+						<a href="https://www.facebook.com/profile.php?id=100021752913326" target=_blank >
+							<i class="fab fa-facebook fa-lg"></i>
+						</a>
+						<a href="tel:+919546618110" target=_blank >
+							<i class="fas fa-phone fa-lg"></i>
+						</a>
+				</div>
+				<!-- /team-member -->
+
+
+				<!-- team-member -->
+				<div class="col-lg-3 col-md-6 centered">
+						<img class="img img-circle" src="img/ruchika.jpg" height="200px" width="200px" alt="Hitesh Ramchandani">
+						<br>
+						<h2><b>Ruchika Sharan</b></h2>
+						<p>Management</p>
+						<a href="https://www.facebook.com/ruchika.sharan.75" target=_blank >
+							<i class="fab fa-facebook fa-lg"></i>
+						</a>
+						<a href="tel:+1123-456-7890" target=_blank >
+							<i class="fas fa-phone fa-lg"></i>
+						</a>
+				</div>
+				<!-- /team-member -->
+
+				<!-- team-member -->
+				<div class="col-lg-3 col-md-6 centered">
+						<img class="img img-circle" src="img/saransh.jpg" height="200px" width="200px" alt="Hitesh Ramchandani">
+						<br>
+						<h2><b>Saransh Jain</b></h2>
+						<p>Finance</p>
+						<a href="https://www.facebook.com/saransh.jain.921677" target=_blank >
+							<i class="fab fa-facebook fa-lg"></i>
+						</a>
+						<a href="tel:+917300067222" target=_blank >
+							<i class="fas fa-phone fa-lg"></i>
+						</a>
+				</div>
+				<!-- /team-member -->
+
+
+				<!-- team-member -->
+				<div class="col-lg-3 col-md-6 centered">
+						<img class="img img-circle" src="img/milind.jpg" height="200px" width="200px" alt="Hitesh Ramchandani">
+						<br>
+						<h2><b>Milind Topno</b></h2>
+						<p>Technical</p>
+						<a href="https://www.facebook.com/milind.topno.50" target=_blank >
+							<i class="fab fa-facebook fa-lg"></i>
+						</a>
+						<a href="tel:+918918785149" target=_blank >
+							<i class="fas fa-phone fa-lg"></i>
+						</a>
+				</div>
+				<!-- /team-member -->
+
+
+				<!-- team-member -->
+				<div class="col-lg-3 col-md-6 centered">
+						<img class="img img-circle" src="img/ankit.jpg" height="200px" width="200px" alt="Hitesh Ramchandani">
+						<br>
+						<h2><b>Ankit Karan</b></h2>
+						<p>Management</p>
+						<a href="https://www.facebook.com/ankit.karan.58" target=_blank >
+							<i class="fab fa-facebook fa-lg"></i>
+						</a>
+						<a href="tel:+918434934890" target=_blank >
+							<i class="fas fa-phone fa-lg"></i>
+						</a>
+				</div>
+				<!-- /team-member -->
+
+
+				<!-- team-member -->
+				<div class="col-lg-3 col-md-6 centered">
+						<img class="img img-circle" src="img/tanmay.jpg" height="200px" width="200px" alt="Hitesh Ramchandani">
+						<br>
+						<h2><b>Tanmay Rustagi</b></h2>
+						<p>Management</p>
+						<a href="https://www.facebook.com/dheeraj.168" target=_blank >
+							<i class="fab fa-facebook fa-lg"></i>
+						</a>
+						<a href="tel:+7807557706" target=_blank >
+							<i class="fas fa-phone fa-lg"></i>
+						</a>
+				</div>
+				<!-- /team-member -->
+
 
 			</div>
 			<!-- /row -->
 		</div>
 		<!-- /container -->
+	</div>
+	<!-- /team -->
 
-		<!-- Map -->
-		<div id="map"></div>
-		<!-- /Map -->
+	<!-- Contact -->
+	<div id="contact" class="section">
+		<!-- container -->
+		<div class="container">
+			<!-- row -->
+			<div class="row">
+				<!-- section title -->
+				<div class="section-title">
+					<h3 class="title"><span>Contact</span> <span style="color: #dd0a37;">Us</span></h3>
+				</div>
+				<!-- /section title -->
+
+				<!-- contact -->
+				<div class="col-sm-4">
+					<div class="contact">
+						<i class="fas fa-map-marked-alt fa-4x"></i>
+						<h3 class="mt-3">Address</h3>
+						<p>
+							IIT Mandi,
+							Kamand,
+							Himachal Pradesh</p>
+					</div>
+				</div>
+				<!-- /contact -->
+
+				<!-- contact -->
+				<div class="col-sm-4">
+					<div class="contact">
+						<i class="fas fa-phone fa-4x"></i>
+						<h3 class="mt-3">Phone</h3>
+						<p><a href="tel:+919418322955">Vipul &nbsp;&nbsp;&nbsp; : +919418322955</a></p>
+						<p><a href="tel:+918527510168">Dheeraj : +918527510168</a></p>
+					</div>
+				</div>
+				<!-- /contact -->
+
+				<!-- contact -->
+				<div class="col-sm-4">
+					<div class="contact">
+						<i class="fas fa-envelope fa-4x"></i>
+						<h3 class="mt-3">Email</h3>
+						<a href="#">team@frosthack.com</a>
+					</div>
+				</div>
+				<!-- /contact -->
+
+			</div>
+			<!-- /row -->
+		</div>
+		<!-- /container -->
 	</div>
 	<!-- /Contact -->
 
