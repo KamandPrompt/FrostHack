@@ -407,6 +407,10 @@ textarea.input {
   color: #0b0f28;
 }
 
+.about-content {
+  font-size: 2rem;
+}
+
 /*=========================================================
 	GALERY
 ===========================================================*/
@@ -865,7 +869,7 @@ textarea.input {
 }
 
 .contact-social {
-  text-align: right;
+  text-align: center;
   margin: 10px 0px;
 }
 
