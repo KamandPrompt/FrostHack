@@ -133,3 +133,12 @@
 .centered-code {
 	text-align: center;
 }
+
+.sponbox {
+	margin-top: 100px;
+}
+
+.sponRow {
+	display: flex;
+	justify-content: center;
+}

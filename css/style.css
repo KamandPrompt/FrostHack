@@ -783,17 +783,10 @@ textarea.input {
 
 .sponsor {
   display: block;
-  opacity: 0.5;
-  margin-bottom: 30px;
-  -webkit-transition: 0.3s opacity;
-  transition: 0.3s opacity;
+  margin: 30px;
 }
 
-.sponsor:hover {
-  opacity: 1;
-}
-
-.sponsor>img {
+.sponsor > img {
   width: 100%;
 }
 
