@@ -142,3 +142,12 @@
 	display: flex;
 	justify-content: center;
 }
+
+.sponFlex {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.sponFlex .sponsor {
+	margin: 40px;
+}
