@@ -10,19 +10,6 @@
 	margin-top: 20px;
 }
 
-#home .main-btn {
-	font-size: 20px;
-	font-weight: 600;
-	background: none;
-	text-transform: capitalize;
-	border: solid white;
-}
-
-#home .main-btn:hover {
-	color : black;
-	background: white;
-}
-
 #gradLogo::before {
 	display: inline-block;
     font-style: normal;
@@ -150,4 +137,39 @@
 }
 .sponFlex .sponsor {
 	margin: 40px;
+}
+
+
+/* devfolio */
+#devfolio-apply-now {
+    -ms-flex-align: center;
+    -webkit-box-align: center;
+    align-items: center;
+    background-color: #3770FF;
+    border-radius: 3px;
+    border: none;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: -ms-flexbox;
+    display: -webkit-box;
+    display: flex;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+    font-size: 18px;
+    font-weight: 600;
+    padding: 12px 20px;
+    text-align: center;
+    text-transform: lowercase;
+}
+
+#devfolio-apply-now:not([disabled]) {
+    cursor: pointer;
+}
+
+#devfolio-apply-now:hover {
+    background-color: #2954BF !important;
+}
+
+.center-content {
+	margin-left: auto;
+	margin-right: auto;
 }
