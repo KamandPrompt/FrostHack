@@ -173,3 +173,47 @@
 	margin-left: auto;
 	margin-right: auto;
 }
+
+.gradient-border {
+	padding: 5px;
+	/* background: linear-gradient(to right, #f56aa7, #3ad8f6); */
+	background: deepskyblue;
+	border-radius: 8px;
+}
+
+.gradient-border > .track {
+	background-color: white;
+	border-radius: inherit;
+	height: 250px;
+}
+
+.gradient-border .mt-3 {
+	padding-bottom: 10px;
+	padding-top: 10px;
+	font-size: 14px;
+	font-weight: 500;
+}
+
+.streak-prize {
+	/* background: rgb(240,106,167);
+	background: linear-gradient(90deg, 
+			rgba(240,106,167,0.8687850140056023) 0%, 
+			rgba(255,255,255,0) 48%, 
+			rgba(255,255,255,1) 52%, 
+			rgba(0,212,255,0.8827906162464986) 100%); */
+	color: white;
+	background: deepskyblue;
+	width: 100%;
+}
+
+.track .img {
+	height: 10em;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.track .img img {
+	width: 80%;
+	height: auto;
+}
