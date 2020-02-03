@@ -221,5 +221,6 @@
 
 .img-adjust {
 	max-height: 10em;
+	max-width: 100%;
 	width: auto !important;
 }
