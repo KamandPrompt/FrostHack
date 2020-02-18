@@ -231,3 +231,7 @@
 		width: auto !important;
 	}
 }
+
+#about .track {
+	margin-top: 0em;
+}
