@@ -235,3 +235,9 @@
 #about .track {
 	margin-top: 0em;
 }
+
+.spon-platinum{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+}
