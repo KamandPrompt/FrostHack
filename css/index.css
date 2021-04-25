@@ -241,3 +241,9 @@
 	flex-wrap: wrap;
 	justify-content: space-evenly;
 }
+.spon-diamond{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	
+}
