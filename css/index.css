@@ -393,4 +393,10 @@
 	letter-spacing: 1px;
 	color: rgb(0, 0, 0);
   }
+#hackon {
+	height:100px;
+	width:350px;
+	background-color: #02013d;
+	padding: 10px;
+}
   
