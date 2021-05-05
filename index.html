@@ -37,6 +37,7 @@
 	<body>
 	<!-- Header -->
 	<header id="header" class="transparent-navbar navTop">
+		<marquee id="timeline" class="changecolor"></marquee>
 		<!-- container -->
 		<div class="container">
 			<!-- navbar header -->
@@ -1197,6 +1198,31 @@
 	</script> -->
 </body>
 <script  type="text/javascript">
+	var today = new Date();
+	if(today.getDate()<=6 && today.getHours() < 13){
+		document.getElementById("timeline").innerHTML = "Upcoming Events - Themes for Frosthack will be released on 6th May 1pm";
+	}
+	else if(today.getDate() == 6  && today.getHours() >= 13){
+		document.getElementById("timeline").innerHTML = "Upcoming Events - Tezos hands on Workshop on 7th May 5pm";
+	}
+	else if(today.getDate() == 7  && today.getHours() < 17){
+		document.getElementById("timeline").innerHTML = "Upcoming Events - Tezos hands on Workshop on 7th May 5pm";
+	}
+	else if(today.getDate() == 7  && today.getHours() >= 17 && today.getHours() < 19){
+		document.getElementById("timeline").innerHTML = "Upcoming Events - Opening Ceremony on 7th May 7pm | Frosthack begins! Start Hacking!";
+	}  
+	else if(today.getDate() == 7  && today.getHours() >= 19){
+		document.getElementById("timeline").innerHTML = "Upcoming Events - Mid Project Submission Deadline on 8th May 1pm";
+	}
+	else if(today.getDate() == 8  && today.getHours() < 13){
+		document.getElementById("timeline").innerHTML = "Upcoming Events - Mid Project Submission Deadline on 8th May 1pm";
+	}
+	else if(today.getDate() == 8  && today.getHours() >= 13){
+		document.getElementById("timeline").innerHTML = "Upcoming Events - Final Project Submission Deadline on 9th May 12pm";
+	}
+	else{
+		document.getElementById("timeline").innerHTML = "Upcoming Events - Final Project Submission Deadline on 9th May 12pm";
+	}
 	function lightmode() {
 		document.body.style.backgroundColor = "#FFFFFF";
 			var x = document.getElementsByClassName("title");
