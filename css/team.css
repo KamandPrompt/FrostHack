@@ -141,3 +141,14 @@
 #header {
   z-index: 999;
 }
+#theme-toggle {
+  position: fixed;
+  bottom: 30px;
+  right: 20px;
+  height: 40px;
+  width: 40px;
+  border-radius: 50px;
+  background-color: white;
+  padding:10px;
+  border: 2px solid #73AD21;
+}
