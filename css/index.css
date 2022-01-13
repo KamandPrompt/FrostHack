@@ -109,6 +109,10 @@ body {
 	height: 4em;
 }
 
+#code_of_conduct:hover {
+  color: #dd0a37 !important;
+}
+
 .track {
 	display: flex;
 	flex-direction: column;
