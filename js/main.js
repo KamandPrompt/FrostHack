@@ -19,9 +19,11 @@
 			// $('#header').addClass('fixed-navbar');
 			$('#header').addClass('navNotTop');
 			$('#header').removeClass('navTop')
+      $("#timeline").addClass("timelineNotTop");
 		}else {
 			$('#header').addClass('navTop')
 			$('#header').removeClass('navNotTop');
+      $("#timeline").removeClass("timelineNotTop");
 			// $('#header').removeClass('fixed-navbar');
 		}
 	});
