@@ -31,7 +31,7 @@
 		e.preventDefault();
 		var hash = this.hash;
 		$('html, body').animate({
-			scrollTop: $(this.hash).offset().top
+			scrollTop: $('#faq').offset().top
 		}, 800);
 	});
 
